@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.containerMeny {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.left {
+    line-height: 40px;
+}
+
+.right *, .left * {
+    padding: 10px;
+    color: black;
+}
+.right a, .left a {
+    text-decoration: none;
+}
+
+.right img {
+    width: 40px;
+}
+
+.right :last-child {
+    background-color: rgb(98, 93, 255);
+    color: white;
+    border-radius: 5%;
+}
+
+.containermiddle img {
+    width: 240px;
+
+}
+.containermiddle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containermiddle input {
+    display: flex;
+    width: 560px;
+    padding-left: 45px;padding-right: 78px;
+    padding-top: 16px;padding-bottom: 16px;
+    margin-top: 20px;
+    border: rgb(205, 202, 202) 2px solid;
+    border-radius: 50px;
+    background-image: url(https://cdn3.iconfinder.com/data/icons/feather-5/24/search-512.png), 
+    url(https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-25-512.png),
+    url(https://upload.wikimedia.org/wikipedia/commons/f/f9/Google_Lens_-_new_logo.png?20230608184235);
+    background-size: 19px, 28px, 24px;
+    background-repeat: no-repeat;
+    background-position: 15px, 485px, 520px;
+}
+.containermiddle input:hover {
+    background-color: lightgray;
+}
+.containermiddle input:focus {
+    background-color: lightgrey;
+    border: 2px lightgrey solid;
+    outline: none;
+}
+button {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border: none;
+}
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.search a {
+    margin: 10px;
+
+}
+.buzzing1 {
+    margin-top:14%;
+    padding-left: 725px;
+    padding-right: 725px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.buzzing1 * {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
